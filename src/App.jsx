@@ -14,15 +14,17 @@ import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import ScrollToTopWebortex from "./Components/ScrollToTop/001/ScrollToTopWebortex";
 import LoaderWebortex from "./Components/PreLoaders/001/LoaderWebortex";
 import NotFoundWebortex from "./Components/NotFound/001/NotFoundWebortex";
+import MetaBallsDemo from "./Components/MetaBalls/MetaBallsDemo";
 
 const AllComponents = () => {
   return (
     <>
       <div className="flex flex-wrap flex-col overflow-hidden">
+        <div className="flex justify-center items-center w-screen h-screen bg-black">
+          <MetaBallsDemo />
+        </div>
         <NavbarWebortex />
-
         <NavbarSLPVD />
-
         <div className="flex justify-center items-center w-screen h-screen bg-black">
           <CounterDemo />
         </div>
