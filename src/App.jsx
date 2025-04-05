@@ -15,11 +15,15 @@ import ScrollToTopWebortex from "./Components/ScrollToTop/001/ScrollToTopWeborte
 import LoaderWebortex from "./Components/PreLoaders/001/LoaderWebortex";
 import NotFoundWebortex from "./Components/NotFound/001/NotFoundWebortex";
 import MetaBallsDemo from "./Components/MetaBalls/MetaBallsDemo";
+import SplashCursorDemo from "./Components/SplashCursor/SplashCursorDemo";
 
 const AllComponents = () => {
   return (
     <>
       <div className="flex flex-wrap flex-col overflow-hidden">
+        {/* <div className="flex justify-center items-center w-screen h-screen bg-black">
+          <SplashCursorDemo />
+        </div> */}
         <div className="flex justify-center items-center w-screen h-screen bg-black">
           <MetaBallsDemo />
         </div>
