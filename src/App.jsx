@@ -11,6 +11,9 @@ import CounterDemo from "./Components/Counter/CounterDemo";
 import NavbarWebortex from "./Components/Navbars/001/NavbarWebortex";
 import NavbarSLPVD from "./Components/Navbars/002/NavbarSLPVD";
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
+import ScrollToTopWebortex from "./Components/ScrollToTop/001/ScrollToTopWebortex";
+import LoaderWebortex from "./Components/PreLoaders/001/LoaderWebortex";
+import NotFoundWebortex from "./Components/NotFound/001/NotFoundWebortex";
 
 const AllComponents = () => {
   return (
@@ -52,11 +55,29 @@ const AllComponents = () => {
   );
 };
 
+const ScrollToTopComponents = () => {
+  return (
+    <div className="flex justify-center items-center w-full h-[1500px] bg-black">
+      <ScrollToTopWebortex />
+    </div>
+  );
+};
+
 const App = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<AllComponents />} />
+        <Route path="/scroll" element={<ScrollToTopComponents />} />
+        <Route path="/loader-001" element={<LoaderWebortex />} />
+        <Route
+          path="/notFound-001"
+          element={
+            <div className="bg-black">
+              <NotFoundWebortex />
+            </div>
+          }
+        />
       </Routes>
     </Router>
   );
