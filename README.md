@@ -20,19 +20,19 @@
 
 > Card with card content expand feature by using material ui and tailwind css
 
-![Expandable Card](https://github.com/sisi-tarak/components/blob/main/src/Components/Cards/screenshots/CardsWithExtend.png?raw=true)
+![Expandable Card](https://github.com/sisi-tarak/realtime-components/blob/main/src/Components/Cards/screenshots/CardsWithExtend.png?raw=true)
 
 ### 2. Card With Gradient 002
 
 > Card with gradient heavy box shadow while hover by using material ui and tailwind css
 
-![Gradient Card](https://github.com/sisi-tarak/components/blob/main/src/Components/Cards/screenshots/CardWithGradient.png?raw=true)
+![Gradient Card](https://github.com/sisi-tarak/realtime-components/blob/main/src/Components/Cards/screenshots/CardWithGradient.png?raw=true)
 
 ### 3. Media Control Card 003
 
 > Card with media control feature by using material ui and tailwind css
 
-![Media Card](https://github.com/sisi-tarak/components/blob/main/src/Components/Cards/screenshots/MediaControlCard.png?raw=true)
+![Media Card](https://github.com/sisi-tarak/realtime-components/blob/main/src/Components/Cards/screenshots/MediaControlCard.png?raw=true)
 
 ## Login
 
@@ -40,10 +40,10 @@
 
 > SignIn form without validation by using tailwind css
 
-![signin1](https://github.com/sisi-tarak/components/blob/main/src/Components/Login/screenshots/SimpleLogin.png?raw=true)
+![signin1](https://github.com/sisi-tarak/realtime-components/blob/main/src/Components/Login/screenshots/SimpleLogin.png?raw=true)
 
 ### 2. Dark LogIn 002
 
 > Dark theme SignIn form without validation by using tailwind css
 
-![signin2](https://github.com/sisi-tarak/components/blob/main/src/Components/Login/screenshots/DarkLogin.png?raw=true)
+![signin2](https://github.com/sisi-tarak/realtime-components/blob/main/src/Components/Login/screenshots/DarkLogin.png?raw=true)
