@@ -47,3 +47,11 @@
 > Dark theme SignIn form without validation by using tailwind css
 
 ![signin2](https://github.com/sisi-tarak/realtime-components/blob/main/src/Components/Login/screenshots/DarkLogin.png?raw=true)
+
+## FAQ
+
+### 1. FAQ -1
+
+> Simple FAQ section
+
+![FAQ-1](https://github.com/sisi-tarak/realtime-components/blob/main/src/Components/FAQ/screenshots/FAQ_component_1.png?raw=true)
